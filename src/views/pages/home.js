@@ -8,11 +8,11 @@ export const viewHome = () => {
         <img src="../src/assets/rectangle-cover.png" alt="foto portada">
       </div>
       <div class="home-muapp row">
-        <h1>¿Qué es muapp?</h1>
+        <h1 class="subtitle">¿Qué es muapp?</h1>
         <img src="../src/assets/vector-heart.svg" alt="corazón">
-        <p>Mujeres Unidas y Activas es una aplicacion mobile informar a las mujeres generando
-          conexiones con profesionales y ayudando en su formación y crecimiento integral</p>
       </div>
+      <p class="text-subtitle">Mujeres Unidas y Activas es una aplicacion mobile informar a las mujeres generando
+          conexiones con profesionales y ayudando en su formación y crecimiento integral</p>
       <button class="button-large" id="info-button">Más información</button>
       <div class="recomend-section column">
         <h1>Recomendados para ti</h1>
