@@ -1,0 +1,1 @@
+import { viewHeader } from './views/components/header.js'
