@@ -11,7 +11,6 @@
 
 .container {
   display: flex;
-  justify-content: center;
 }
 
 .top-bar {
@@ -30,10 +29,6 @@
 .margin-fix {
   margin-bottom: 40px;
 }
-/* .bottom-menu-container {
-  width: 100%;
-  box-shadow: 3px -4px 4px rgba(0, 0, 0, 0.09);
-} */
 
 /* boostrap fake */
 
@@ -99,13 +94,15 @@
 
 /* Home */
 
+.home-page {
+  margin-top: 89px;
+  display: flex;
+  justify-content: center;
+}
+
 .cover-photo {
   width: 332px;
   margin-bottom: 22px;
-}
-
-.home-muapp {
-  align-items: center;
 }
 
 .subtitle {
@@ -125,6 +122,11 @@
 .text-subtitle {
   width: 332px;
   margin-bottom: 20px;
+}
+
+.square-img {
+  width: 103px;
+  height: 106px;
 }
 
 .link {
