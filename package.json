@@ -1,0 +1,37 @@
+{
+  "name": "hdl-nightingale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "eslint": "eslint --ext .js src/ test/",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConstLaf/HLD-Nightingale.git"
+  },
+  "keywords": [],
+  "author": "Victoria M. <victoria.moreno@live.cl> , Katherine C. <csk.kath@gmail.com>, Constanza L.<developer.constance@gmail.com>, Angelina R. <angelinaziran@gmail.com> ",
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/ConstLaf/HLD-Nightingale/issues"
+  },
+  "homepage": "https://github.com/ConstLaf/HLD-Nightingale#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "htmlhint": "^0.14.1",
+    "jest": "^26.4.1",
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
