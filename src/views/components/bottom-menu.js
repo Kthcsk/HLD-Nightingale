@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 export const viewBottomMenu = () => {
   const bottomMenuContainer = document.getElementById('bottom-menu-container');
   bottomMenuContainer.innerHTML = `
@@ -26,4 +27,4 @@ export const viewBottomMenu = () => {
 
   return bottomMenuContainer;
 };
-viewBottomMenu()
+viewBottomMenu();
