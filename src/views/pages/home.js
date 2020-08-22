@@ -12,7 +12,7 @@ export const viewHome = () => {
       </div>
       <h1 class="subtitle">¿Qué es muapp?</h1>
       <p class="text-subtitle">Mujeres Unidas y Activas es una aplicacion mobile informar a las mujeres generando
-          conexiones con profesionales y ayudando en su formación y crecimiento integral</p>
+          conexiones con profesionales y ayudando en su formación y crecimiento integral.</p>
       <button class="button-large" id="info-button">Más información</button>
       <div class="recomend-section column">
         <h1 class="subtitle-two">Cursos recomendados</h1>
