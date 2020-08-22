@@ -1,0 +1,59 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* #DB7563 rojo */
+/* #FCEDD7 beige */
+/* #434343 negro */
+
+/* boostrap fake */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+/* end boostrap fake */
+
+
+/* Header */
+.header {
+  justify-content: space-around;
+  align-items: center;
+  width: 360px;
+}
+
+.user-profile {
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+}
+
+.name-app {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  color: #DB7563;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.light {
+  font-weight: 500;
+}
+
+.search {
+  width: 22px;
+}
+/* End Header */
