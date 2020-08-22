@@ -1,5 +1,10 @@
 import { viewHome } from './views/pages/home.js';
-import { viewInformation } from './views/pages/information.js';
+import { changeRoute } from './lib/router.js';
 
-viewHome();
-viewInformation();
+const init = () => {
+  window.onload = () => { viewHome(); };
+  window.addEventListener('hashchange', () => {
+    changeRoute(window.location.hash);
+  });
+};
+window.addEventListener('load', init());
