@@ -3,7 +3,12 @@
 /* #FCEDD7 beige */
 /* #434343 negro */
 
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #434343;
+}
 /* boostrap fake */
+
 .row {
   display: flex;
   flex-direction: row;
@@ -27,6 +32,7 @@
 
 
 /* Header */
+
 .header {
   justify-content: space-around;
   align-items: center;
@@ -40,7 +46,6 @@
 }
 
 .name-app {
-  font-family: 'Montserrat', sans-serif;
   font-size: 26px;
   color: #DB7563;
 }
@@ -56,4 +61,27 @@
 .search {
   width: 22px;
 }
+
 /* End Header */
+
+/* Home */
+
+.cover-photo {
+  width: 360px;
+  padding: 0 14px;
+}
+
+.home-muapp {
+  align-items: center;
+}
+
+.subtitle {
+  font-size: 22px;
+  justify-content: space-around;
+  width: 360px;
+}
+
+.text-subtitle{
+  width: 360px;
+}
+/* End Home */
