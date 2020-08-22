@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/prefer-default-export */
 import { viewHeader } from '../components/header.js';
 
 export const viewHome = () => {
