@@ -10,34 +10,45 @@ export const viewHome = () => {
       <div class="cover-photo">
         <img src="../src/assets/rectangle-cover.png" alt="foto portada">
       </div>
-      <div class="home-muapp row">
-        <h1 class="subtitle">¿Qué es muapp?</h1>
-        <img src="../src/assets/vector-heart.svg" alt="corazón">
-      </div>
+      <h1 class="subtitle">¿Qué es muapp?</h1>
       <p class="text-subtitle">Mujeres Unidas y Activas es una aplicacion mobile informar a las mujeres generando
           conexiones con profesionales y ayudando en su formación y crecimiento integral</p>
       <button class="button-large" id="info-button">Más información</button>
       <div class="recomend-section column">
-        <h1 class="subtitle-two">Recomendados para ti</h1>
-        <div class="recomend-box row">
-          <img src="../src/assets/rectangle-tejido.png" alt="persona tejiendo">
-          <div class="recomend-detail column">
-            <p class="bold">Las técnicas del tejidos</p>
-            <p class="light">Gancho agujas, tunecino.</p>
-            <a class="link">Ver video</a>
+        <h1 class="subtitle-two">Cursos recomendados</h1>
+        <div class="recomend-box column">
+          <div class="recomend-detail row">
+            <img class="square-img" src="../src/assets/rectangle-tejido.png" alt="persona tejiendo">
+            <div class="recomend-detail column">
+              <div class="recomend-text">
+                <p class="bold">Las técnicas del tejidos</p>
+                <p class="light">Gancho agujas, tunecino.</p>
+              </div>  
+              <a class="link">Ver curso</a>
+            </div>
           </div>
-          <img src="../src/assets/rectangle-emprende.png" alt="persona">
-          <div class="recomend-detail column">
-            <p class="bold">¡Emprende ya!</p>
-            <p class="light">Apoyo en redes sociales</p>
-            <a class="link">Ver video</a>
+          <div class="recomend-detail row">
+            <img class="square-img" src="../src/assets/rectangle-emprende.png" alt="persona">
+            <div class="column">
+              <div class="recomend-text">
+                <p class="bold">¡Emprende ya!</p>
+                <p class="light">Apoyo en redes sociales</p>
+              </div>
+              <a class="link">Ver curso</a>
+            </div>
           </div>
-          <img src="../src/assets/rectangle-therapy.png" alt="manos juntas">
-          <p class="bold">Terapia de grupo</p>
-          <p class="light">Mujeres siempre unidas</p>
-          <a class="link">Ver video</a>
+          <div class="recomend-detail row">
+            <img class="square-img" src="../src/assets/rectangle-therapy.png" alt="manos juntas">
+            <div class="column">
+              <div class="recomend-text">
+                <p class="bold">Terapia de grupo</p>
+                <p class="light">Mujeres siempre unidas</p>
+              </div>
+              <a class="link">Ver curso</a>
+            </div>
+           </div> 
         </div>
-        <button class="button-large" id="category-button">Filtrar por categoría</button>
+        <button class="button-large" id="category-button">Ver otros cursos</button>
       </div>
     </div>
   `;

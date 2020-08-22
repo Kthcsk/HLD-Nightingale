@@ -30,10 +30,6 @@
 .margin-fix {
   margin-bottom: 40px;
 }
-/* .bottom-menu-container {
-  width: 100%;
-  box-shadow: 3px -4px 4px rgba(0, 0, 0, 0.09);
-} */
 
 /* boostrap fake */
 
@@ -88,7 +84,7 @@
 }
 
 .light {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .search {
@@ -99,13 +95,15 @@
 
 /* Home */
 
+.home-page {
+  margin-top: 89px;
+  display: flex;
+  justify-content: center;
+}
+
 .cover-photo {
   width: 332px;
   margin-bottom: 22px;
-}
-
-.home-muapp {
-  align-items: center;
 }
 
 .subtitle {
@@ -127,10 +125,24 @@
   margin-bottom: 20px;
 }
 
+.recomend-detail {
+  margin-bottom: 16px;
+}
+
+.recomend-text {
+  margin-bottom: 21px;
+}
+
+.square-img {
+  width: 103px;
+  height: 106px;
+  margin-right: 14px;
+}
+
 .link {
   color: #FC5F59;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 20px;
   text-decoration-line: underline;
 }
@@ -146,10 +158,12 @@
 .button-large {
   width: 332px;
   height: 56px;
+  font-size: 16px;
   background-color: #FC5F59;
   color: #F2F2F2;
   border: none;
   border-radius: 5px;
+  margin-bottom: 40px;
 }
 
 .button-large-outline {
@@ -170,6 +184,7 @@
   justify-content: space-around;
   width: 360px;
   height: 90px;
+  margin-top: 9px;
 }
 
 .icon:active {

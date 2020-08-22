@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 import { viewHome } from './views/pages/home.js';
 import { changeRoute } from './lib/router.js';
 

@@ -4,7 +4,9 @@ export const viewBottomMenu = () => {
   bottomMenuContainer.innerHTML = `
   <div class="bottom-menu row align-items" id="bottom-menu">
     <div class="column">
-      <img class="icon info" src="../src/assets/info.svg" alt="info">
+      <a href="#/information">
+        <img class="icon info" src="../src/assets/info.svg" alt="info">
+      </a>  
       <p class="text-icon">Información</p>
     </div>
     <div class="column">
@@ -12,7 +14,9 @@ export const viewBottomMenu = () => {
       <p class="text-icon">Mentor</p>
     </div>
     <div class="column">
-      <img class="icon home" src="../src/assets/home.svg" alt="home">
+      <a href="#/">
+        <img class="icon home" src="../src/assets/home.svg" alt="home">
+      </a>  
       <p class="text-icon">Inicio</p>
     </div>
     <div class="column">
