@@ -1,6 +1,7 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/prefer-default-export */
 import { viewHeader } from '../components/header.js';
+import { viewBottomMenu } from '../components/bottom-menu.js';
 
 export const viewHome = () => {
   const homeContainer = document.getElementById('page-container');
@@ -42,6 +43,7 @@ export const viewHome = () => {
   `;
 
   viewHeader();
+  viewBottomMenu();
   return homeContainer;
 };
 viewHome();
