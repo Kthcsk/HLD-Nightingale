@@ -1,10 +1,11 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/prefer-default-export */
 import { viewHeader } from '../components/header.js';
+import { viewBottomMenu } from '../components/bottom-menu.js';
 
 export const viewInformation = () => {
-  const footerContainer = document.getElementById('footer-container');
-  footerContainer.innerHTML = `
+  const pageContainer = document.getElementById('page-container');
+  pageContainer.innerHTML = `
     <div class="info-page column">
         <img src="../src/assets/rectangle-escritorio.png" alt="escritorio">
         <h1>¿Qué es la seccion informativa?</h1>
@@ -22,7 +23,8 @@ export const viewInformation = () => {
     </div>
     `;
   viewHeader();
-  return footerContainer;
+  viewBottomMenu();
+  return pageContainer;
 };
 
 viewInformation();
