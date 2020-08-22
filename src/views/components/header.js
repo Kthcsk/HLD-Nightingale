@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 export const viewHeader = () => {
   const headerContainer = document.getElementById('header-container');
   headerContainer.innerHTML = `
@@ -12,4 +13,4 @@ export const viewHeader = () => {
 
   return headerContainer;
 };
-viewHeader()
+viewHeader();

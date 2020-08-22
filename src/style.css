@@ -1,12 +1,40 @@
 /* font-family: 'Montserrat', sans-serif; */
-/* #DB7563 rojo */
+/* #FC5F59 rojo */
 /* #FCEDD7 beige */
 /* #434343 negro */
 
 * {
   font-family: 'Montserrat', sans-serif;
   color: #434343;
+  margin: 0;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.top-bar {
+  position: fixed;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+}
+
+.bottom-bar {
+  box-shadow: 3px -4px 4px rgba(0, 0, 0, 0.09);
+}
+
+.top-bar, .bottom-bar {
+  background-color: #FFFFFF;
+}
+
+.margin-fix {
+  margin-bottom: 40px;
+}
+/* .bottom-menu-container {
+  width: 100%;
+  box-shadow: 3px -4px 4px rgba(0, 0, 0, 0.09);
+} */
+
 /* boostrap fake */
 
 .row {
@@ -28,6 +56,10 @@
   align-content: center;
 }
 
+.align-items {
+  align-items: center;
+}
+
 /* end boostrap fake */
 
 
@@ -37,6 +69,7 @@
   justify-content: space-around;
   align-items: center;
   width: 360px;
+  height: 65px;
 }
 
 .user-profile {
@@ -47,7 +80,7 @@
 
 .name-app {
   font-size: 26px;
-  color: #DB7563;
+  color: #FC5F59;
 }
 
 .bold {
@@ -67,8 +100,8 @@
 /* Home */
 
 .cover-photo {
-  width: 360px;
-  padding: 0 14px;
+  width: 332px;
+  margin-bottom: 22px;
 }
 
 .home-muapp {
@@ -78,10 +111,74 @@
 .subtitle {
   font-size: 22px;
   justify-content: space-around;
-  width: 360px;
+  width: 332px;
+  margin-bottom: 15px;
 }
 
-.text-subtitle{
-  width: 360px;
+.subtitle-two {
+  font-size: 22px;
+  justify-content: space-around;
+  width: 332px;
+  margin-bottom: 24px;
 }
+
+.text-subtitle {
+  width: 332px;
+  margin-bottom: 20px;
+}
+
+.link {
+  color: #FC5F59;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
+
 /* End Home */
+
+/* Information */
+
+.info-page {
+  margin-top: 89px;
+}
+
+.button-large {
+  width: 332px;
+  height: 56px;
+  background-color: #FC5F59;
+  color: #F2F2F2;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-large-outline {
+  width: 332px;
+  height: 56px;
+  margin-bottom: 15px;
+  background: transparent;
+  border: 2px solid #FC5F59;
+  border-radius: 5px;
+}
+
+/* End Information */
+
+/* Bottom-menu */
+
+.bottom-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 360px;
+  height: 90px;
+}
+
+.icon:active {
+  color: #FC5F59;
+}
+
+.text-icon {
+  font-weight: 500;
+  font-size: 10px;
+}
+
+/* End bottom-menu */
