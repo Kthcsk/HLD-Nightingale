@@ -27,6 +27,12 @@
 
 
 /* Header */
+.header {
+  justify-content: space-around;
+  align-items: center;
+  width: 360px;
+}
+
 .user-profile {
   border-radius: 50%;
   width: 43px;
@@ -45,5 +51,9 @@
 
 .light {
   font-weight: 500;
+}
+
+.search {
+  width: 22px;
 }
 /* End Header */
